@@ -66,6 +66,10 @@
     align-items: center;
 }
 
+.portfolio-content img{
+    max-width: 100%;
+}
+
 /* COMMON */
 /* CONTAINER */
 .container{
@@ -100,8 +104,4 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
-
-#appear{
-    display: none;
 }
