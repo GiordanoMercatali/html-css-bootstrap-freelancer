@@ -4,6 +4,9 @@
     --border-2: 1px solid rgb(255, 0, 0);
     --border-3: 1px solid rgb(255, 255, 255);
     --border-4: 1px solid rgb(0, 255, 13);
+    --primary-color: #1abc9c;
+    --secondary-color: #2c3e50;
+
 }
 
 /*Reset*/
@@ -17,10 +20,9 @@
 /* HEADER */
 .header{
     width: 100%;
-    background-color: rgb(0, 36, 45);
+    background-color: var(--secondary-color);
 
     /* debug */
-    border: var(--border-3);
 }
 
 /* COMMON */
@@ -36,22 +38,19 @@
     justify-content: space-between;
     align-items: center;
     /* debug */
-    border: var(--border-4);
 }
 
 /* COLUMNS */
 [class*="col"]{
 
     /* debug */
-    border: var(--border-2);
-    height: 4rem;
 }
 
 /* BUTTON */
 .btn{
-    color: white;
+    color: gray;
+    border: 1px solid white;
     /* debug */
-    border: var(--border-2);
 }
 
 /* LIST */
@@ -67,11 +66,38 @@
     #appear{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
     }
 
     #disappear{
         display: none;
     }
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    width: 100%;
+    /* debug */
+    height: 20rem;
+    background-color: var(--primary-color);
+}
+
+.jumbo-content{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.jumbo-content > *{
+    margin: auto;
+}
+
+.jumbo-content img{
+    max-height: 50%;
 }
