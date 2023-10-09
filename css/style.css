@@ -1,6 +1,9 @@
 /*Custom properties*/
 :root{
-    
+    --border-1: 1px solid rgb(0, 0, 0);
+    --border-2: 1px solid rgb(255, 0, 0);
+    --border-3: 1px solid rgb(255, 255, 255);
+    --border-4: 1px solid rgb(0, 255, 13);
 }
 
 /*Reset*/
@@ -8,4 +11,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+}
+
+/* HEADER */
+.header{
+    width: 100%;
+    background-color: rgb(0, 36, 45);
+
+    /* debug */
+    border: var(--border-3);
+}
+
+/* COMMON */
+/* CONTAINER */
+.container{
+    /* debug */
+}
+
+/* ROW */
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    border: var(--border-4);
+}
+
+/* COLUMNS */
+[class*="col"]{
+
+    /* debug */
+    border: var(--border-2);
+    height: 4rem;
+}
+
+/* BUTTON */
+.btn{
+    color: white;
+    /* debug */
+    border: var(--border-2);
+}
+
+/* LIST */
+.flex-ul{
+    list-style-type: none;
+}
+
+#appear{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    #appear{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #disappear{
+        display: none;
+    }
 }
