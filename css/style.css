@@ -25,11 +25,15 @@
     /* debug */
 }
 
-
+/* HEADER BUTTON */
+.header .btn{
+    color: gray;
+    border: 1px solid white;
+    /* debug */
+}
 
 /* JUMBOTRON */
 .jumbotron{
-    padding: 3rem 0;
     color: white;
     background-color: var(--primary-color);
     /* debug */
@@ -44,10 +48,12 @@ img{
     color: var(--secondary-color);
     /* width: 60%; */
     margin: 0 auto;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+}
+
+/* ABOUT */
+.about{
+    background-color: var(--primary-color);
+    color: white;
 }
 
 /* COMMON */
@@ -63,10 +69,6 @@ a{
 
 /* ROW */
 .row{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; */
     /* debug */
 }
 
@@ -77,11 +79,7 @@ a{
 }
 
 /* BUTTON */
-.btn{
-    color: gray;
-    border: 1px solid white;
-    /* debug */
-}
+
 
 /* LIST */
 .flex-ul{
