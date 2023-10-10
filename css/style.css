@@ -28,6 +28,7 @@
 /* HEADER BUTTON */
 .header .btn{
     color: gray;
+    background-color: transparent;
     border: 1px solid white;
     /* debug */
 }
@@ -56,6 +57,14 @@ img{
     color: white;
 }
 
+/* CONTACT */
+/* FORM */
+.ms_form-control{
+    box-shadow: none;
+    border-width: 0 0 1px 0;
+}
+
+
 /* COMMON */
 /* A */
 a{
@@ -79,7 +88,12 @@ a{
 }
 
 /* BUTTON */
-
+[class*="btn"]{
+    
+    background-color: var(--primary-color);
+    border-color: white;
+    /* debug */
+}
 
 /* LIST */
 .flex-ul{
