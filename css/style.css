@@ -51,6 +51,11 @@ img{
 }
 
 /* COMMON */
+/* A */
+a{
+    text-decoration: none;
+    color: white;
+}
 /* CONTAINER */
 .container{
     /* debug */
