@@ -33,7 +33,6 @@
     color: white;
     background-color: var(--primary-color);
     /* debug */
-    border: var(--border-1);
 }
 
 img{
