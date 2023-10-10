@@ -18,7 +18,7 @@
     <body> 
         <header class="header w-100">
             <div class="container">
-                <div class="row g-4">
+                <div class="row g-4 d-flex justify-content-between align-items-center">
                     <div class="col-4">
                         <div class="p-3">
                             LOREM IPSUM
@@ -26,8 +26,8 @@
                     </div>
                     <div class="col-4">
                         <div class="p-3">
-                            <button class="btn d-md-none" id=""><i class="fa-solid fa-bars"></i></button>
-                            <ul class="flex-ul d-sm-none d-md-flex" id="">
+                            <button class="btn d-flex d-md-none"><i class="fa-solid fa-bars"></i></button>
+                            <ul class="flex-ul d-none d-md-flex justify-content-around">
                                 <li>Lorem</li>
                                 <li>ipsum</li>
                                 <li>dolor</li>
@@ -39,31 +39,29 @@
         </header>
 
         <main>
-            <div id="jumbotron" class="w-100">
-                <div class="jumbo-content w-50">
-                    <img src="img/avatar.svg" alt="">
+            <section class="jumbotron w-100">
+                <div class="container text-center">
+                    <img src="img/avatar.svg">
                     <h1>Lorem ipsum</h1>
                     <h3>--- &star; ---</h3>
                     <h4>lorem-ipsum-dolor</h4>
                 </div>
-            </div>
+            </section>
 
-            <div id="portfolio" class="mt-3">
-                <div class="portfolio-content w-60">
+            <section class="portfolio mt-3">
+                <div class="container text-center">
                     <h3> Portfolio </h3>
                     <h3>--- &star; ---</h3>
-                    <div class="container">
-                        <div class="row gy-4">
-                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/cabin.png" alt=""> </div>
-                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/cake.png" alt=""> </div>
-                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/circus.png" alt=""> </div>
-                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/game.png" alt=""> </div>
-                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/safe.png" alt=""> </div>
-                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/submarine.png" alt=""> </div>
+                        <div class="row gy-4"> <!--d-flex justify-content-between align-items-center-->
+                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/cabin.png" class="img-fluid"> </div>
+                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/cake.png" class="img-fluid"> </div>
+                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/circus.png" class="img-fluid"> </div>
+                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/game.png" class="img-fluid"> </div>
+                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/safe.png" class="img-fluid"> </div>
+                            <div class="col-12 col-md-6 col-lg-4"> <img src="img/submarine.png" class="img-fluid"> </div>
                         </div>
                     </div>
-                </div>
-            </div>
+            </section>
         </main>
 
         <footer>
