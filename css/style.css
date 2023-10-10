@@ -28,46 +28,27 @@
 
 
 /* JUMBOTRON */
-#jumbotron{
-    /* width: 100%; */
-    /* debug */
-    height: 20rem;
-    background-color: var(--primary-color);
-}
-
-.jumbo-content{
-    margin: auto;
-    /* width: 60%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.jumbotron{
+    padding: 3rem 0;
     color: white;
-
-    height: 100%;
+    background-color: var(--primary-color);
+    /* debug */
+    border: var(--border-1);
 }
 
-.jumbo-content > *{
-    margin: auto;
-}
-
-.jumbo-content img{
-    max-height: 50%;
+img{
+    max-width: 30%;
 }
 
 /* PORTFOLIO */
-.portfolio-content{
+.portfolio{
     color: var(--secondary-color);
     /* width: 60%; */
-    margin: auto;
-    display: flex;
+    margin: 0 auto;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-.portfolio-content img{
-    max-width: 100%;
+    align-items: center; */
 }
 
 /* COMMON */
@@ -78,10 +59,10 @@
 
 /* ROW */
 .row{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     /* debug */
 }
 
@@ -101,7 +82,4 @@
 /* LIST */
 .flex-ul{
     list-style-type: none;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }
