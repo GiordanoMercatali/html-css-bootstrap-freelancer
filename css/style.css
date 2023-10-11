@@ -121,4 +121,5 @@ a{
 /* LIST */
 .flex-ul{
     list-style-type: none;
+    padding-left: 0;
 }
