@@ -41,9 +41,9 @@
     /* debug */
 }
 
-img{
+/* img{
     max-width: 30%;
-}
+} */
 
 /* PORTFOLIO */
 .portfolio{
@@ -122,4 +122,19 @@ a{
 .flex-ul{
     list-style-type: none;
     padding-left: 0;
+    margin-bottom: 0.5rem;
 }
+
+/* STAR */
+/* .star{
+    content: "\f005";
+    margin: 0 1rem;
+}
+
+.star::before, .star::after{
+    content: "";
+    height: 2px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid white;
+} */
